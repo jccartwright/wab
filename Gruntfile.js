@@ -80,7 +80,7 @@ module.exports = function (grunt) {
                     'themes/**/**.css',
                     'themes/**/images/**',
                     'themes/**/nls/**',
-                    'themes/**/layouts/**.*',
+                    'themes/**/layouts/**/*.*',
                     'themes/**/*.js'
                 ],
                 'dest': 'dist/',
