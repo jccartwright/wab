@@ -8,8 +8,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('node-sass');
     const sass = require('node-sass');
-    var appDir = '/Users/jcc/Applications/WebAppBuilderForArcGIS/server/apps/2';
-    var stemappDir = '/Users/jcc/Applications/WebAppBuilderForArcGIS/client/stemapp';
+    var appDir = '/Users/jcc/WebAppBuilderForArcGIS/server/apps/2';
+    var stemappDir = '/Users/jcc/WebAppBuilderForArcGIS/client/stemapp';
     grunt.initConfig({
         sync: {
             main: {

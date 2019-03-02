@@ -1,7 +1,8 @@
 {
   "name": "wab",
   "version": "1.0.0",
-  "description": "",
+  "description": "2D widgets and themes for Web AppBuilder",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:jccartwright/wab.git"
@@ -14,14 +15,15 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "build": "esri-wab-build /Users/jcc/Applications/WebAppBuilderForArcGIS/server/apps/2"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esri-wab-build /Users/jcc/WebAppBuilderForArcGIS/server/apps/2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-es2015-modules-simple-amd": "^0.3.0",
     "babel-preset-es2015-without-strict": "0.0.4",
     "babel-preset-stage-0": "^6.24.1",
-    "esri-wab-build": "^1.0.1",
+    "esri-wab-build": "^1.1.0",
     "grunt": "^1.0.3",
     "grunt-babel": "^7.0.0",
     "grunt-contrib-clean": "^2.0.0",
